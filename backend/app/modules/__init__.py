@@ -1,1 +1,1 @@
-"""0-1 module stubs; not wired in base."""
+"""测算模块：color_batch 已实现并接入估漆流程；其余模块仍为 0-1 桩。"""

@@ -10,3 +10,6 @@ table { width:100%; border-collapse:collapse; }
 th,td { border:1px solid #aacce0; padding:0.35rem; }
 .hero-num { font-size:2rem; color: var(--line); font-weight:700; }
 a { color: var(--line); }
+.page label { display:inline-flex; gap:0.4rem; align-items:center; margin-right:1rem; }
+.page input { padding:0.3rem; border:1px solid var(--line); border-radius:4px; }
+.err { color:#b3261e; }
