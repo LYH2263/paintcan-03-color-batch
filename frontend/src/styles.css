@@ -10,3 +10,7 @@ table { width:100%; border-collapse:collapse; }
 th,td { border:1px solid #aacce0; padding:0.35rem; }
 .hero-num { font-size:2rem; color: var(--line); font-weight:700; }
 a { color: var(--line); }
+input, select { padding:0.3rem; border:1px solid var(--line); border-radius:4px; }
+label { display:inline-flex; align-items:center; gap:0.4rem; margin-right:0.75rem; }
+.err { color:#b3261e; font-weight:600; }
+.hint { color:#5a7a8a; font-size:0.85rem; }

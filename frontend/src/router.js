@@ -6,6 +6,7 @@ import PaintEstimate from './pages/PaintEstimate.vue'
 import CoverageRules from './pages/CoverageRules.vue'
 import OpeningDiagram from './pages/OpeningDiagram.vue'
 import BatchHistory from './pages/BatchHistory.vue'
+import BatchRunDetail from './pages/BatchRunDetail.vue'
 import Settings from './pages/Settings.vue'
 
 export default createRouter({
@@ -18,6 +19,7 @@ export default createRouter({
     { path: '/coverage', component: CoverageRules },
     { path: '/diagram', component: OpeningDiagram },
     { path: '/history', component: BatchHistory },
+    { path: '/history/:id', component: BatchRunDetail },
     { path: '/settings', component: Settings },
   ],
 })
